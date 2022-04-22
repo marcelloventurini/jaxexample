@@ -1,0 +1,5 @@
+com\teste\model\Funcionario.class
+com\teste\resources\FuncionarioResource.class
+com\teste\MyResource.class
+com\teste\Main.class
+com\teste\repositories\FuncionarioRepository.class
