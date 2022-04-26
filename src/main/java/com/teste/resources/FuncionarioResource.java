@@ -28,6 +28,7 @@ public class FuncionarioResource {
 
   @GET
   @Path("{id}")
+  @Produces(MediaType.APPLICATION_JSON)
   public Funcionario getById(@PathParam("id") int id) {
     return _repositorio.get(id);
   }
